@@ -94,21 +94,27 @@ a:hover {
     }
 }
 
-/* Profile Picture Styling */
+/* Profile Section: Image Wrapped Around Text */
 .profile {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+    align-items: flex-start;
+    gap: 20px; /* Adds spacing between image and text */
+    max-width: 900px;
+    margin: 40px auto;
 }
 
-.profile img {
-    width: 200px; /* Adjust size */
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%; /* Makes it circular */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+.profile-pic {
+    width: 150px;  /* Smaller image */
+    height: auto;
+    border-radius: 10px;  /* Slightly rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
 }
+
+.text-content {
+    flex: 1; /* Ensures text fills the remaining space */
+    text-align: left;
+}
+
 
 
 
