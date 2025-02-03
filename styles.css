@@ -34,41 +34,48 @@ body {
 
 /* Styling for Links */
 a {
-    color: #6F22F4; 
-    text-decoration: none;
+    color: #4922F4;
+    text-decoration: none; 
     font-weight: bold;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Underline appears on hover */
+    color: #6F22F4; /* Slightly different shade on hover */
 }
 
-/* Gallery Section: Two Images per Row */
+/* Gallery Section: Two Images per Row Without Gaps */
 .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0;
-    padding: 0; /* Remove padding */
-    margin: 0;  /* Remove margins */
-    width: 100vw; /* Make full width */
+    gap: 0px; /* Ensure no spacing between grid items */
+    padding: 0;
+    margin: 0;
+    width: 100vw;
 }
 
+/* Ensure figure elements do not introduce spacing */
+.gallery figure, 
 .gallery picture {
-    display: flex;
-    justify-content: center;
-}
-
-.gallery figure {
     margin: 0;
     padding: 0;
+    display: block; /* Prevent inline spacing */
+    width: 100%;
 }
 
+/* Ensure images take up full space */
 .gallery img {
-    width: 100%;  /* Ensures images fit within the grid */
-    height: auto;
-    border-radius: 0;
-    object-fit: cover;
-    display: block;
+    width: 100%;
+    height: 100%; /* Make sure they fully occupy the grid */
+    object-fit: cover; /* Ensures proper image cropping */
+    display: block; /* Removes inline spacing */
+}
+
+/* Remove any default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Make images responsive on smaller screens */
@@ -77,4 +84,3 @@ a:hover {
         grid-template-columns: 1fr; /* Switch to one column on small screens */
     }
 }
-
