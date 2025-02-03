@@ -29,18 +29,32 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Gallery Section */
+/* Gallery Section: Two Images per Row */
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two images per row */
     gap: 10px;
     padding: 30px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.gallery picture {
+    display: flex;
+    justify-content: center;
 }
 
 .gallery img {
-    width: 48%; /* Two images per row */
+    width: 100%;  /* Ensures images fit within the grid */
     height: auto;
     border-radius: 5px;
     object-fit: cover;
 }
+
+/* Make images responsive on smaller screens */
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: 1fr; /* Switch to one column on small screens */
+    }
+}
+
