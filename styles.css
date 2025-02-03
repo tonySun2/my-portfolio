@@ -32,11 +32,11 @@ a:hover {
 /* Gallery Section: Two Images per Row */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two images per row */
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    padding: 30px;
-    max-width: 80%;
-    margin: auto;
+    padding: 0; /* Remove padding */
+    margin: 0;  /* Remove margins */
+    width: 100vw; /* Make full width */
 }
 
 .gallery picture {
@@ -47,7 +47,7 @@ a:hover {
 .gallery img {
     width: 100%;  /* Ensures images fit within the grid */
     height: auto;
-    border-radius: 5px;
+    border-radius: 0;
     object-fit: cover;
 }
 
