@@ -47,7 +47,7 @@ a:hover {
 .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 0;
     padding: 0; /* Remove padding */
     margin: 0;  /* Remove margins */
     width: 100vw; /* Make full width */
@@ -58,11 +58,17 @@ a:hover {
     justify-content: center;
 }
 
+.gallery figure {
+    margin: 0;
+    padding: 0;
+}
+
 .gallery img {
     width: 100%;  /* Ensures images fit within the grid */
     height: auto;
     border-radius: 0;
     object-fit: cover;
+    display: block;
 }
 
 /* Make images responsive on smaller screens */
