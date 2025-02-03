@@ -97,7 +97,7 @@ a:hover {
 
 /* Profile Picture */
 .profile-pic {
-    width: 160px;  /* Adjust the size */
+    width: 200px;  /* Adjust the size */
     height: auto;
     border-radius: 10px;
     float: right;  /* Allows text wrapping */
