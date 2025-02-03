@@ -35,14 +35,14 @@ body {
 
 /* Styling for Links */
 a {
-    color: #4922F4;
+    color: #0394fc;
     text-decoration: none; 
     font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline; /* Underline appears on hover */
-    color: #6F22F4; /* Slightly different shade on hover */
+    color: #0394fc; /* Slightly different shade on hover */
 }
 
 
@@ -94,3 +94,34 @@ a:hover {
     }
 }
 
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f4ece6; /* Soft neutral background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+    font-size: 24px;
+    color: #4922F4;
+}
+
+.contact p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #4922F4;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
