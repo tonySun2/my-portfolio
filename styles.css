@@ -95,20 +95,14 @@ a:hover {
 }
 
 
-/* Profile Picture at the Top Right */
+/* Profile Picture */
 .profile-pic {
-    float: right;  /* Aligns image to the right */
-    width: 150px;  /* Adjust size */
+    width: 160px;  /* Adjust the size */
     height: auto;
-    margin-left: 20px; /* Space between text and image */
-    margin-bottom: 10px; /* Space below */
-    border-radius: 10px;  /* Rounded edges */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
-    position: absolute;
-    top: 20px; /* Moves it to the top */
-    right: 20px; /* Moves it to the right */
+    border-radius: 10px;
+    float: right;  /* Allows text wrapping */
+    margin-left: 20px; /* Creates space between text and image */
 }
-
 
 
 
