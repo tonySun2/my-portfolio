@@ -95,30 +95,16 @@ a:hover {
 }
 
 
-/* Profile Section: Image on the Right */
-.profile {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Ensures proper spacing */
-    max-width: 900px;
-    margin: 20px auto; /* Reduce spacing */
-}
-
-/* Profile Picture */
+/* Profile Picture Wrapped by Text */
 .profile-pic {
-    width: 160px;  /* Small and neat */
+    float: right;  /* Moves image to the right */
+    width: 150px;  /* Smaller size */
     height: auto;
-    border-radius: 10px;
-    margin-left: 20px; /* Space between text and image */
+    margin-left: 20px;  /* Space between text and image */
+    margin-bottom: 10px; /* Prevent text from getting too close */
+    border-radius: 10px;  /* Slightly rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
 }
-
-/* Ensure Text Stays Aligned */
-.text-content {
-    flex: 1;
-    text-align: left;
-}
-
-
 
 
 
