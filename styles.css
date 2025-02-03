@@ -20,7 +20,7 @@ body {
 
 .small-text {
     font-size: 20px; /* Adjust the size as needed */
-    color: #555; /* Make it slightly lighter */
+    color: #4922F4; 
 }
 
 
@@ -35,14 +35,14 @@ body {
 
 /* Styling for Links */
 a {
-    color: #0394fc;
+    color: #1D4C6D;
     text-decoration: none; 
     font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline; /* Underline appears on hover */
-    color: #0394fc; /* Slightly different shade on hover */
+    color: #1D4C6D; /* Slightly different shade on hover */
 }
 
 
