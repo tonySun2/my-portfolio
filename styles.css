@@ -18,9 +18,17 @@ body {
     color: #4922F4; /* Updated blue font */
 }
 
+/* General Text Styling */
+.content {
+    max-width: 900px; /* Set a reasonable width */
+    margin: 40px auto; /* Center the content with space on both sides */
+    padding: 20px; /* Adds inner spacing */
+    text-align: left; /* Align text to the left */
+}
+
 /* Styling for Links */
 a {
-    color: #4922F4; /* Updated blue font */
+    color: #6F22F4; 
     text-decoration: none;
     font-weight: bold;
 }
