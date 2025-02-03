@@ -44,13 +44,17 @@ a:hover {
     color: #6F22F4; /* Slightly different shade on hover */
 }
 
+/* RESET DEFAULT STYLES BUT EXCLUDE TEXT CONTENT */
+body, .gallery {
+    margin: 0;
+    padding: 0;
+}
+
 /* Gallery Section: Two Images per Row Without Gaps */
 .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0px; /* Ensure no spacing between grid items */
-    padding: 0;
-    margin: 0;
+    gap: 0; /* No gaps between images */
     width: 100vw;
 }
 
@@ -66,16 +70,17 @@ a:hover {
 /* Ensure images take up full space */
 .gallery img {
     width: 100%;
-    height: 100%; /* Make sure they fully occupy the grid */
-    object-fit: cover; /* Ensures proper image cropping */
-    display: block; /* Removes inline spacing */
+    height: 100%; /* Ensures proper fit */
+    object-fit: cover;
+    display: block;
 }
 
-/* Remove any default browser spacing */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* PRESERVE TEXT CONTENT SPACING */
+.content, .intro, .text-container {
+    max-width: 900px;
+    margin: 40px auto; /* Keeps margins for text */
+    padding: 20px;
+    text-align: left;
 }
 
 /* Make images responsive on smaller screens */
@@ -84,3 +89,4 @@ a:hover {
         grid-template-columns: 1fr; /* Switch to one column on small screens */
     }
 }
+
