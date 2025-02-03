@@ -25,11 +25,12 @@ body {
 
 
 /* General Text Styling */
-.content {
-    max-width: 900px; /* Set a reasonable width */
-    margin: 40px auto; /* Center the content with space on both sides */
-    padding: 20px; /* Adds inner spacing */
-    text-align: left; /* Align text to the left */
+.content, .text-container {
+    max-width: 900px;
+    margin: 60px auto; /* Extra space to ensure proper spacing */
+    padding: 20px;
+    text-align: left;
+    line-height: 1.6; /* Improve readability */
 }
 
 /* Styling for Links */
@@ -44,13 +45,16 @@ a:hover {
     color: #6F22F4; /* Slightly different shade on hover */
 }
 
+
+
+/* Gallery Section: Two Images per Row Without Gaps */
+
 /* RESET DEFAULT STYLES BUT EXCLUDE TEXT CONTENT */
-body, .gallery {
+.gallery {
     margin: 0;
     padding: 0;
 }
 
-/* Gallery Section: Two Images per Row Without Gaps */
 .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
