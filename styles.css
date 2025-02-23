@@ -81,7 +81,7 @@ a:hover {
 
 /* Tooltip Styling */
 .gallery picture::after {
-    content: attr(title);
+    content: attr(data-location);
     position: absolute;
     bottom: 10px; /* Adjust placement */
     left: 50%;
