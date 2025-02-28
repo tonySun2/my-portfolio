@@ -10,29 +10,45 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FSEQT53CPJ"></script>
     <script src="analytics.js"></script>
 </head>
+
 <body>
 
     <section class="content">
         <h1>Projects</h1>
         <p>Here are some of the projects I've worked on, covering topics in finance, data science, and computational biology.</p>
-        
+
         <section class="project">
-            <h2>1. Computational Biology Research</h2>
-            <p>Applied deep learning techniques to track bacterial movements in Professor Wong’s lab at UCLA.</p>
+            <h2>Research Projects</h2>
+            <p>I am an undergraduate researcher at the Wong Lab at UCLA. My research focuses on leveraging computational and machine learning techniques to analyze complex biological data to uncover meaningful patterns. Below are the two main projects that I have worked on.</p>
+
+            <h3>1. Amyloidogenicity of SARS-CoV-2</h3>
+            <p>Understanding the persistence of viral peptides post-infection is crucial for assessing long-term immune responses. In this project, we aimed to investigate whether xenoAMP regions within the SARS-CoV-2 protein sequences overlap with amyloidogenic regions. If such an overlap exists, it could suggest that xenoAMPs persist due to amyloid-like aggregation, resisting degradation and allowing them to circulate in the body long after infection.</p>
+            <p>To explore this, I computationally analyzed SARS-CoV-2 protein sequences. I applied a Support Vector Machine (SVM) classifier to identify antimicrobial peptide (AMP)-like sequences and used the WALTZ algorithm to predict amyloidogenic segments. The results provided insights into the potential role of amyloid-like aggregation in the persistence of viral peptides. This is still an ongoing project.</p>
+
+            <h3>2. Deep Learning for Tracking Bacterial Movements</h3>
+            <p>Accurately tracking bacterial movement in experimental settings is essential for studying their behavior. Our lab previously used a Matlab-based segmentation and tracking algorithm, but it required significant manual input for each experiment. To improve efficiency, I worked on developing a modernized workflow that minimizes human intervention while maintaining high accuracy.</p>
+            <p>This work involved processing large microscopy datasets on a high-performance computing workstation. I performed image preprocessing steps, such as background subtraction and color inversion, to enhance the clarity of bacterial structures. To achieve accurate segmentation and tracking, I utilized a U-Net neural network from a Python package called DeLTA. The new workflow reduces manual labor and automates bacterial tracking, enabling more efficient and reliable biological research.</p>
         </section>
 
         <section class="project">
-            <h2>2. Statistical Consulting</h2>
-            <p>Provided data-driven solutions for real-world business and research problems in UCLA’s Statistical Consulting course.</p>
-        </section>
+            <h2>Personal Projects</h2>
+            <p>During my internships and daily reading, I often encounter fascinating concepts in quantitative finance. To deepen my understanding, I research these topics to uncover their underlying mechanisms. However, I believe that hands-on experimentation often leads to deeper insights than theoretical study alone. Below are two projects where I applied data science and software development to put these ideas into practice.</p>
 
-        <section class="project">
-            <h2>3. Finance and Trading</h2>
-            <p>Developed Python-based trade matching automation and explored risk management strategies.</p>
+            <h3>1. Trading Library</h3>
+            <p>Inspired by my internship at Huatai Securities Research, I recognized how computer-based tools significantly enhance financial analysis and decision-making. The firm's stock selection framework allowed for efficient data retrieval and comprehensive analysis across multiple asset classes. Without such a tool, financial analysts must either search for data manually or rely on expensive platforms like Bloomberg Terminal.</p>
+            <p>To address this gap, I began developing a trading library that simplifies accessing and analyzing financial market data. The library enables comparative analysis within an industry—for example, instead of manually searching for PE ratios of companies in a sector, I can retrieve them with a single command. It features portfolio construction algorithms based on technical indicators like RSI and MACD and incorporates a back-testing framework to evaluate trading strategies. Additionally, the library includes risk management tools, such as Value at Risk (VaR) calculations, Greeks for options portfolios, and scenario analysis for market risk assessment.</p>
+            <p>The trading library is still a work in progress, with much to be done before it becomes fully functional. However, this project has been a valuable learning experience, giving me insight into the various stages of quantitative investment, from strategy formation to risk management.</p>
+
+            <h3>2. Simple Trade Matching Engine</h3>
+            <p>Financial exchanges process billions of trades daily, matching buyers and sellers based on predefined rules. To better understand how these systems operate, I developed a simple trade matching engine in Python that simulates the core mechanisms of a financial exchange.</p>
+            <p>This system manages an order book, processing both limit and market orders based on priority rules. It includes modular classes for trade execution, allowing for future scalability and expansion. Through this project, I gained hands-on experience in trade execution algorithms, order book management, and matching logic, reinforcing my understanding of market microstructure and exchange operations.</p>
         </section>
 
         <p><a href="index.html">Back to Home</a></p>
+
     </section>
 
 </body>
+
+
 </html>
