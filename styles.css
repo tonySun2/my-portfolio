@@ -49,13 +49,12 @@ a:hover {
 
 /* Project Image Styling */
 .project-img {
-    width: 250px;  
-    height: 180px;  /* Ensures a uniform height */
-    object-fit: cover; /* Prevents distortion and crops excess parts */
+    width: 300px;  /* Adjust the size */
+    height: auto;
     border-radius: 10px;
-    float: right;  
-    margin-left: 20px;
-    margin-bottom: 10px;
+    float: right;  /* Allows text wrapping */
+    margin-left: 20px; /* Creates space between text and image */
+    margin-bottom: 10px; /* Adds spacing between text sections */
 }
 
 
