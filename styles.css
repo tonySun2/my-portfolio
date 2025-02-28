@@ -46,19 +46,15 @@ a:hover {
     color: #00008B; /* Slightly different shade on hover */
 }
 
-/* Project Section Styling */
-.project-container {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    margin-bottom: 20px;
-}
 
+/* Project Image Styling */
 .project-img {
-    width: 200px; /* Adjust size as needed */
+    width: 250px;  /* Adjust the size */
     height: auto;
     border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    float: right;  /* Allows text wrapping */
+    margin-left: 20px; /* Creates space between text and image */
+    margin-bottom: 10px; /* Adds spacing between text sections */
 }
 
 
