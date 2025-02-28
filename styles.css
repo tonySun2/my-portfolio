@@ -30,7 +30,7 @@ body {
     margin: 60px auto; /* Extra space to ensure proper spacing */
     padding: 20px;
     text-align: left;
-    font-size: 19px;
+    font-size: 17px;
     line-height: 1.6; /* Improve readability */
 }
 
@@ -44,6 +44,21 @@ a {
 a:hover {
     text-decoration: underline; /* Underline appears on hover */
     color: #00008B; /* Slightly different shade on hover */
+}
+
+/* Project Section Styling */
+.project-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.project-img {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 

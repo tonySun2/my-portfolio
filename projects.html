@@ -22,12 +22,18 @@
             <p>I am an undergraduate researcher at the Wong Lab at UCLA. My research focuses on leveraging computational and machine learning techniques to analyze complex biological data to uncover meaningful patterns. Below are the two main projects that I have worked on.</p>
 
             <h3>1. Amyloidogenicity of SARS-CoV-2</h3>
-            <p>Understanding the persistence of viral peptides post-infection is crucial for assessing long-term immune responses. In this project, we aimed to investigate whether xenoAMP regions within the SARS-CoV-2 protein sequences overlap with amyloidogenic regions. If such an overlap exists, it could suggest that xenoAMPs persist due to amyloid-like aggregation, resisting degradation and allowing them to circulate in the body long after infection.</p>
-            <p>To explore this, I computationally analyzed SARS-CoV-2 protein sequences. I applied a Support Vector Machine (SVM) classifier to identify antimicrobial peptide (AMP)-like sequences and used the WALTZ algorithm to predict amyloidogenic segments. The results provided insights into the potential role of amyloid-like aggregation in the persistence of viral peptides. This is still an ongoing project.</p>
+            <div class="project-container">
+                <img src="photos/amyloid.png" alt="Amyloid Analysis" class="project-img">
+                <p>Understanding the persistence of viral peptides post-infection is crucial for assessing long-term immune responses. In this project, we aimed to investigate whether xenoAMP regions within the SARS-CoV-2 protein sequences overlap with amyloidogenic regions. If such an overlap exists, it could suggest that xenoAMPs persist due to amyloid-like aggregation, resisting degradation and allowing them to circulate in the body long after infection.</p>
+                <p>To explore this, I computationally analyzed SARS-CoV-2 protein sequences. I applied a Support Vector Machine (SVM) classifier to identify antimicrobial peptide (AMP)-like sequences and used the WALTZ algorithm to predict amyloidogenic segments. The results provided insights into the potential role of amyloid-like aggregation in the persistence of viral peptides. This is still an ongoing project.</p>
+            </div>
 
             <h3>2. Deep Learning for Tracking Bacterial Movements</h3>
-            <p>Accurately tracking bacterial movement in experimental settings is essential for studying their behavior. Our lab previously used a Matlab-based segmentation and tracking algorithm, but it required significant manual input for each experiment. To improve efficiency, I worked on developing a modernized workflow that minimizes human intervention while maintaining high accuracy.</p>
-            <p>This work involved processing large microscopy datasets on a high-performance computing workstation. I performed image preprocessing steps, such as background subtraction and color inversion, to enhance the clarity of bacterial structures. To achieve accurate segmentation and tracking, I utilized a U-Net neural network from a Python package called DeLTA. The new workflow reduces manual labor and automates bacterial tracking, enabling more efficient and reliable biological research.</p>
+            <div class="project-container">
+                <img src="photos/tracking.png" alt="Bacterial Tracking Visualization" class="project-img">
+                <p>Accurately tracking bacterial movement in experimental settings is essential for studying their behavior. Our lab previously used a Matlab-based segmentation and tracking algorithm, but it required significant manual input for each experiment. To improve efficiency, I worked on developing a modernized workflow that minimizes human intervention while maintaining high accuracy.</p>
+                <p>This work involved processing large microscopy datasets on a high-performance computing workstation. I performed image preprocessing steps, such as background subtraction and color inversion, to enhance the clarity of bacterial structures. To achieve accurate segmentation and tracking, I utilized a U-Net neural network from a Python package called DeLTA. The new workflow reduces manual labor and automates bacterial tracking, enabling more efficient and reliable biological research.</p>
+            </div>
         </section>
 
         <section class="project">
@@ -40,8 +46,11 @@
             <p>The trading library is still a work in progress, with much to be done before it becomes fully functional. However, this project has been a valuable learning experience, giving me insight into the various stages of quantitative investment, from strategy formation to risk management.</p>
 
             <h3>2. Simple Trade Matching Engine</h3>
-            <p>Financial exchanges process billions of trades daily, matching buyers and sellers based on predefined rules. To better understand how these systems operate, I developed a simple trade matching engine in Python that simulates the core mechanisms of a financial exchange.</p>
-            <p>This system manages an order book, processing both limit and market orders based on priority rules. It includes modular classes for trade execution, allowing for future scalability and expansion. Through this project, I gained hands-on experience in trade execution algorithms, order book management, and matching logic, reinforcing my understanding of market microstructure and exchange operations.</p>
+            <div class="project-container">
+                <img src="photos/order_book.gif" alt="Order Book Simulation" class="project-img">
+                <p>Financial exchanges process billions of trades daily, matching buyers and sellers based on predefined rules. To better understand how these systems operate, I developed a simple trade matching engine in Python that simulates the core mechanisms of a financial exchange.</p>
+                <p>This system manages an order book, processing both limit and market orders based on priority rules. It includes modular classes for trade execution, allowing for future scalability and expansion. Through this project, I gained hands-on experience in trade execution algorithms, order book management, and matching logic, reinforcing my understanding of market microstructure and exchange operations.</p>
+            </div>
         </section>
 
         <p><a href="index.html">Back to Home</a></p>
@@ -49,6 +58,7 @@
     </section>
 
 </body>
+
 
 
 </html>
