@@ -49,7 +49,7 @@ a:hover {
 
 /* Project Image Styling */
 .project-img {
-    width: 400px;  /* Adjust the size */
+    width: 500px;  /* Adjust the size */
     height: auto;
     border-radius: 10px;
     float: right;  /* Allows text wrapping */
