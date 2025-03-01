@@ -46,6 +46,12 @@ a:hover {
     color: #00008B; /* Slightly different shade on hover */
 }
 
+/* Project Section Styling */
+.project {
+    margin-bottom: 60px; /* Increase spacing between sections */
+    padding-bottom: 20px; /* Optional: Adds more space inside the section */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle divider */
+}
 
 /* Project Image Styling */
 .project-img {
