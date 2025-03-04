@@ -15,12 +15,12 @@ body {
     margin: auto;
     font-size: 26px;
     font-weight: bold;
-    color: #4922F4; 
+    color: #170566; 
 }
 
 .small-text {
     font-size: 20px; 
-    color: #4922F4; 
+    color: #170566; 
 }
 
 
@@ -36,14 +36,14 @@ body {
 
 /* Styling for Links */
 a {
-    color: #00008B;
+    color: #4922F4;
     text-decoration: none; 
     font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline; /* Underline appears on hover */
-    color: #00008B; /* Slightly different shade on hover */
+    color: #4922F4; 
 }
 
 /* Project Section Styling */
