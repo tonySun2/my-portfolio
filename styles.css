@@ -2,7 +2,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #EDDFD8; /* Updated pink background */
-    color: #4922F4; /* Updated blue font */
+    color: #170566; /* Updated blue font */
     text-align: center;
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body {
     margin: auto;
     font-size: 26px;
     font-weight: bold;
-    color: #4922F4; /* Updated blue font */
+    color: #4922F4; 
 }
 
 .small-text {
